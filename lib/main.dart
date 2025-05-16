@@ -7,3 +7,7 @@ void main() async {
   await AuthStorage.init();
   runApp(MaterialApp(debugShowCheckedModeBanner: false, home: Splashscreen()));
 }
+
+class AuthStorage {
+  static init() {}
+}

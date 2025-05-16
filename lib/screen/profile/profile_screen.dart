@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_medic/login/welcome.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:my_medic/screen/profile/widget/edit_profile.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -156,6 +155,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
       ),
     );
   }
+}
+
+class SharedPreferences {
+  getString(String s) {}
+
+  static getInstance() {}
+
+  clear() {}
 }
 
 class ProfileMenuItem extends StatelessWidget {
