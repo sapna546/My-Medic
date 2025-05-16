@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:my_medic/services/splash/splash_auth.dart';
 import 'package:my_medic/services/splash/splash_services.dart';
 
 void main() async {
